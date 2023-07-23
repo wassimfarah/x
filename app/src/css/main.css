@@ -1,0 +1,86 @@
+body{
+    background-color: #17254C;
+    color: white;
+    text-shadow: 0 0 3px;
+}
+.titleName{
+ font-size: 60pt;   
+ font-family: vt;
+ color: white;
+ white-space: pre;
+ text-align: center;
+}
+.porImg{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+}
+.contact-icons-p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.firstHr{
+    width: 80%;
+}
+.intro-p{
+    text-align: center;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 80%;
+    font-family: cascadia;
+    letter-spacing: -.05rem;
+    font-size:1.3rem ;
+    padding:20px 0
+    
+}
+.secondHr{
+    width: 80%;
+}
+.toggleBtnsP{
+    text-align: center;
+    margin: 25px 0;
+}
+.toggleBtns{
+    margin-right: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: solid 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: vt;
+    src: url('../fonts/VT323-Regular.ttf');
+}
+@font-face {
+    font-family: cascadia;
+    src: url('../fonts/SpaceMono-Regular.ttf');
+}
+/* Start Fonts */
+
+/* End Fonts*/

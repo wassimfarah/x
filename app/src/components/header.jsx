@@ -8,6 +8,9 @@ import instagram_icon from '../icons/instagram.png'
 import '../css/main.css'
 
 import Projects from './projects'
+import Career from './career'
+import Skills from './skills'
+import Research from './research'
 
 const Header = () => {
   const [show, setShow]=useState(false)
@@ -29,10 +32,22 @@ const Header = () => {
          }else{
           setShow(null)
          }
-      setShow("career")
       break
+      
+      case "skills" :
+        if(show!=="skills"){
+          setShow("skills")
+         }else{
+          setShow(null)
+         }
+      break
+
       default : 
-      console.log("test")
+      if(show!=="research"){
+        setShow("research")
+       }else{
+        setShow(null)
+       }
     }
   }
   return (
@@ -61,12 +76,18 @@ const Header = () => {
         <hr className='secondHr'></hr>
         <div className='toggleBtnsP'>
           <button onClick={()=>toggleButtons("projects")} className='toggleBtns'>PROJECTS</button>
-          <button className='toggleBtns'>CAREER</button>
-          <button className='toggleBtns'>SKILLS</button>
-          <button className='toggleBtns'>RESEARCH</button>
+          <button onClick={()=>toggleButtons("career")} className='toggleBtns'>CAREER</button>
+          <button onClick={()=>toggleButtons("skills")} className='toggleBtns'>SKILLS</button>
+          <button onClick={()=>toggleButtons("research")} className='toggleBtns'>RESEARCH</button>
         </div>
 
-        {show==="projects" ? <Projects></Projects> : null}
+        {
+        show==="projects" ? <Projects></Projects> : 
+        show==="career" ? <Career></Career> : 
+        show==="skills" ? <Skills></Skills>:
+        show==="research" ? <Research></Research>
+        : <br></br>
+        }
     </>
   )
 }

@@ -5,7 +5,7 @@ import github_icon from '../icons/github.png'
 import linkedin_icon from '../icons/linkedin.png'
 import youtube_icon from '../icons/youtube.png'
 import instagram_icon from '../icons/instagram.png'
-import '../css/main.css'
+
 
 import Projects from './projects'
 import Career from './career'

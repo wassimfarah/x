@@ -69,7 +69,7 @@ const Header = () => {
         
         <div className='intro-p'>
           <div>
-          Hi there and thanks for stopping by! My name is Ori, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.
+          Hi there and thanks for stopping by! My name is Amen, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.
           </div>
         </div>
 

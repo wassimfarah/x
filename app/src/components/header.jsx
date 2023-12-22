@@ -52,7 +52,7 @@ const Header = () => {
   }
   return (
     <>
-        <h1 className='titleName'>Amen Alaya</h1>
+        <h1 className='titleName'>Wassim Farah</h1>
         
         <img className='porImg'  src={portfImg} alt='x'/>
 
@@ -69,7 +69,7 @@ const Header = () => {
         
         <div className='intro-p'>
           <div>
-          Hi there and thanks for stopping by! My name is Ori, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.
+          Hi there and thanks for stopping by! My name is Wassim, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.
           </div>
         </div>
 

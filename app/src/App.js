@@ -2,6 +2,7 @@
 import Header from './components/header.jsx'
 
 function App() {
+  const test=null;
   const maintenace = "We're sorry for the inconvenience. Our website is currently undergoing maintenance. Please check back later."
   return (
     <div className="App container">
